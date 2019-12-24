@@ -1,21 +1,23 @@
 # coding=utf-8
 """day2.py
-learning python list
+学习python列表
 """
+# list的方法
 fruits = ['apple','orange','banana','pear','kiwi','apple']
-#--append
+#--append 向列表后添加一个项目
 fruits.append('pen')
-#--extend
-#--insert
+#--extend 
+
+#--insert 在指定index后插入一个项目
 fruits.insert(2,'apple pen')
-#--sort
+#--sort 对list进行排序
 fruits.sort()
 print(fruits)
-#--pop
+#--pop 从列表最后弹出一个元素，同时返回相应的元素
 print(fruits.pop())
-#--count
+#--count 返回与目标内容相等元素个数
 print(fruits.count('apple'))
-#--index
+#--index 返回目标元素的索引
 print(fruits.index('apple'))
 
 # list as stash
